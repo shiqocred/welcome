@@ -148,6 +148,7 @@ const Navbar = () => {
                       className="bg-zinc-300/50 border-0 focus-visible:ring-0 text-black dark:text-white focus-visible:ring-offset-0 pl-20 pr-10 placeholder:text-zinc-500/50 dark:placeholder:text-white/50"
                       placeholder="Search..."
                       autoComplete="off"
+                      autoFocus
                       {...field}
                     />
                   </FormControl>
